@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+}
+
+body {
+  position: fixed;
+}
+
+.wrapper {
+  position: fixed;
+  top: 30%;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  letter-spacing: 10px;
+  margin-top: -60px;
+  padding-left: 10px;
+}
+
+.wrapper span {
+  font-size: 40px;
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.people {
+  /* margin-top: 40px; */
+  vertical-align: middle;
+}
+
+.people img {
+  /* width: 55%; */
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 7%;
+  -webkit-border-radius: 7%;
+  -moz-border-radius: 7%;
+  -o-border-radius: 7%;
+  -ms-border-radius: 7%;
+}
+
+.image-container {
+  text-align: center;
+}
+
+/* -- responsive-design -- */
+
+/* @media only screen and (max-width: 800px) {
+  .people img {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .people img {
+    float: left;
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .people img {
+    float: left;
+    width: 50%;
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .people img {
+    margin-top: 6em;
+  }
+} */
