@@ -17,13 +17,13 @@ body {
   text-align: center;
   font-family: "lato", sans-serif;
   font-weight: 300;
-  letter-spacing: 10px;
   margin-top: -60px;
   padding-left: 10px;
 }
 
 .wrapper span {
   font-size: 40px;
+  letter-spacing: 10px;
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -37,6 +37,7 @@ body {
   text-align: center;
   cursor: default;
   margin: auto;
+  letter-spacing: 10px;
 }
 
 .hovereffect .overlay {
@@ -57,6 +58,34 @@ body {
   -moz-border-radius: 7%;
   -o-border-radius: 7%;
   -ms-border-radius: 7%;
+}
+
+.website:hover i {
+  color: #26d9d9;
+}
+
+.facebook:hover i {
+  color: #4183d7;
+}
+
+.twitter:hover i {
+  color: #19b5fe;
+}
+
+.github:hover i {
+  color: #000;
+}
+
+.dribble:hover i {
+  color: #f62459;
+}
+
+.pinterest:hover i {
+  color: #f22613;
+}
+
+.linkedin:hover i {
+  color: #2877b5;
 }
 
 .hovereffect h2,
@@ -157,35 +186,6 @@ body {
   filter: alpha(opacity=100);
 }
 
-/* .social a {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: #f8f9fa;
-  position: relative;
-  text-align: center;
-  color: #0d1e2d;
-}
-
-.social a span {
-  display: inline-block;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.social a:hover {
-  color: #000;
-} */
-
-/* --- Footer --- */
-.social {
-  position: relative;
-}
-
 .social ul {
   margin: 0 auto;
   margin-bottom: 30px;
@@ -209,33 +209,22 @@ body {
 }
 
 .social ul li:hover {
-  background:#2a2a2a;
-}
-
-.social ul li:hover	a {
-  color:#fff;
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .social ul li a {
-  color:#fff;
-  width:42px !important;
-  height:42px !important;
+  color: #fff;
+  width: 42px !important;
+  height: 42px !important;
 }
+
+.social ul li:hover a {
+  color: #fff;
+}
+
 .social ul li a i {
-  line-height:45px;
-  color:#fff;
-}
-.social p {
-  color:#fff;
-  font-size:13px;
-  line-height:24px;
-  font-weight:300;
-  text-align:center;
-  text-transform:uppercase;
-}
-.social a,
-.social a:hover {
-  color:#fff;
+  line-height: 45px;
+  color: #fff;
 }
 
 /* -- responsive-design -- */
